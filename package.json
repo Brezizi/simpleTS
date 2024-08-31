@@ -1,0 +1,31 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "run",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brezizi/simpleTS.git"
+  },
+  "keywords": [
+    "zizi"
+  ],
+  "author": "zizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brezizi/simpleTS/issues"
+  },
+  "homepage": "https://github.com/Brezizi/simpleTS#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "tailwindcss": "^3.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
